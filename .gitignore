@@ -1,0 +1,16 @@
+# Ignore environment folders
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore database and migrations
+db.sqlite3
+*.sqlite3
+/migrations/
+
+# Ignore node modules for Tailwind
+node_modules/
+
+# Ignore static files (Tailwind generated files)
+staticfiles/
